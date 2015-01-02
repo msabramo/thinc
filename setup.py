@@ -68,6 +68,7 @@ if sys.argv[1] == 'clean':
 
 distutils.core.setup(
     name='thinc',
+    description='Super sparse multi-class machine learning with Cython',
     packages=['thinc'],
     version='1.4',
     author='Matthew Honnibal',
